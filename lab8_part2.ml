@@ -168,4 +168,7 @@ module IntStringSerialize =
       "(" ^ string_of_int n ^ ",'" ^ s ^ "')"  
   end ;;
 
+module IntStringStack =  
+  MakeStack(IntStringSerialize) ;;
+
 
